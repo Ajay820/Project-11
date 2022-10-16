@@ -1,0 +1,262 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color:#f5f5f5;
+}
+
+p,span,li{
+    font-family:"Poppins";
+    color:#5a5a5acc;
+}
+
+h1,button,h3{
+    font-family: "Open Sans";
+}
+
+.navbar{
+    float:right;
+    margin-top:-50px;
+}
+
+.nav{
+    display:flex;
+    list-style: none;
+    margin-right:200px;
+}
+
+.nav li:nth-child(1){
+    color:#000000;
+}
+.list{
+    margin-right:20px;
+    font-family: "Open Sans";
+
+}
+
+.right{
+    float:right;
+    margin-right:40px;
+    height:40px;
+    width:140px;
+    margin-top:-30px;
+    color:#04bdf5;
+    background-color: #f5f5f5;
+    font-size:15px;
+    border:1px solid #04bdf5
+}
+
+.change{
+    margin-top:30px;
+    height:40px;
+    width:160px;
+    border-radius:5%;
+    color:#ffffff;
+    background-color: #04bdf5;
+    border: 1px solid #04bdf5;
+    box-shadow:2px 0px 10px #04bdf5;
+}
+
+
+
+.logo{
+    margin-top:40px;
+    margin-left:120px;
+}
+
+.page1{
+    margin-top:50px;
+    margin-left:60px;
+}
+
+.page2{
+    margin-top:20px;
+}
+.card{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:100px;
+}
+
+.card h1{
+    font-weight: bolder;
+    font-size:50px;
+}
+
+.top{
+    margin-top:60px;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-around;
+    margin-top:70px;
+    margin-left:30px;
+}
+
+.hosting{
+    box-shadow:2px 2px 2px  #ffffff,-2px -2px 2px #ffffff;
+    background-color: #ffffff;
+    padding:15px;
+}
+
+.thor{
+    display:flex;
+    justify-content: space-around;
+}
+.page3{
+    margin-top:100px;
+    background-color: #34c0eb;
+}
+
+.header{
+    padding:15px;
+}
+
+.feature{
+    margin-top:20px;
+    margin-left:35px;
+}
+
+.feature p{
+    margin:10px;
+}
+
+.pricing{
+    margin-top:20px;
+    text-align: center;
+}
+
+.plan{
+    margin-top:20px;
+    margin-left:35px;
+    height:30px;
+    width:120px;
+    color:#04bdf5;
+    border:1px solid #04bdf5;
+    background-color: #ffffff;
+    margin-left:90px;
+}
+
+.height{
+    width:25%;
+    margin-left:15px;
+    background-color: #ffffff;
+    border-radius:1%;
+}
+
+.flexible{
+    text-align: center;
+    padding:50px;
+    color:#ffffff;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+}
+
+.active{
+    background-color: #000000;
+    color:#ffffff;
+}
+
+.color{
+    background-color: #04bdf5;
+    box-shadow: 0px 0px 10px #04bdf5;
+    color:#ffffff;
+}
+
+.review{
+    display:flex;
+    margin-top:40px;
+    justify-content: space-around;
+    margin-left:80px;
+}
+
+.michael{
+    margin-left:70px;
+    margin-top:-60px;
+}
+
+.page4{
+    margin-top:30px;
+}
+
+.loves{
+    text-align:center;
+}
+
+.box{
+    box-shadow: 2px 2px 2px #ffffff,-2px -2px 2px #ffffff;
+    background-color: #ffffff;
+    padding:15px;
+}
+
+.margin{
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.card h1,p{
+    margin-top:10px;
+}
+
+.img{
+    width:100%;
+}
+.now{
+    display:flex;
+    justify-content: space-around;
+    margin-top:-250px;
+}
+
+.now h1{
+    color:#ffffff;
+} 
+
+.now p{
+    color:#ffffff;
+}
+
+.now button{
+    color:#ffffff;
+}
+
+.page5{
+    margin-top:50px;
+}
+
+.register{
+    height:35px;
+    width:140px;
+    margin-top:30px;
+    background-color: #086aeb;
+    border:1px solid #ffffff;
+}
+
+.end{
+    display:flex;
+    margin-top:200px;
+    justify-content: space-around;
+}
+
+.last li{
+    list-style:none;
+    margin-top:15px;
+}
+
+.social{
+    margin-right:10px;
+    margin-top:15px;
+}
+.media{
+    margin-left:20px;
+}
+
+
+.end div:nth-child(1) p{
+    margin-top:15px;
+}
