@@ -10,6 +10,7 @@ body{
 p,span,li{
     font-family:"Poppins";
     color:#5a5a5acc;
+    font-size:1rem;
 }
 
 h1,button,h3{
@@ -24,7 +25,7 @@ h1,button,h3{
 .nav{
     display:flex;
     list-style: none;
-    margin-right:200px;
+    margin-right:50px;
 }
 
 .nav li:nth-child(1){
@@ -33,7 +34,10 @@ h1,button,h3{
 .list{
     margin-right:20px;
     font-family: "Open Sans";
+}
 
+.menu-icon{
+    display:none;
 }
 
 .right{
@@ -41,10 +45,10 @@ h1,button,h3{
     margin-right:40px;
     height:40px;
     width:140px;
-    margin-top:-30px;
+    margin-top:-10px;
     color:#04bdf5;
     background-color: #f5f5f5;
-    font-size:15px;
+    font-size:1rem;
     border:1px solid #04bdf5
 }
 
@@ -59,16 +63,13 @@ h1,button,h3{
     box-shadow:2px 0px 10px #04bdf5;
 }
 
-
-
 .logo{
     margin-top:40px;
-    margin-left:120px;
+    margin-left:40px;
 }
 
 .page1{
     margin-top:50px;
-    margin-left:60px;
 }
 
 .page2{
@@ -80,40 +81,60 @@ h1,button,h3{
     margin-top:100px;
 }
 
+.card img{
+    max-width:100%;
+    height:auto;
+}
+
 .card h1{
-    font-weight: bolder;
-    font-size:50px;
+    font-size:2.5rem;
 }
 
 .top{
     margin-top:60px;
+    max-width:30%;
+    font-size:2rem;
+}
+
+.top p{
+    font-size:1rem;
 }
 
 .flex{
     display:flex;
     justify-content: space-around;
-    margin-top:70px;
-    margin-left:30px;
+    max-width:95%;
+    flex-wrap: wrap;
+    margin:20px auto;
 }
 
 .hosting{
     box-shadow:2px 2px 2px  #ffffff,-2px -2px 2px #ffffff;
     background-color: #ffffff;
     padding:15px;
+    flex-basis:300px;
+    margin:20px 10px;
 }
 
 .thor{
     display:flex;
     justify-content: space-around;
 }
-.page3{
-    margin-top:100px;
-    background-color: #34c0eb;
+
+.thor-heading{
+    max-width:20%;
 }
 
-.header{
-    padding:15px;
+.thor-para{
+    max-width:30%;
 }
+
+.page3{
+    background-color: #34c0eb;
+    max-width:100%;
+    margin:30px auto;
+}
+
 
 .feature{
     margin-top:20px;
@@ -125,37 +146,40 @@ h1,button,h3{
 }
 
 .pricing{
-    margin-top:20px;
+    max-width:100%;
+    margin:0 auto;
     text-align: center;
 }
 
 .plan{
-    margin-top:20px;
-    margin-left:35px;
     height:30px;
     width:120px;
     color:#04bdf5;
     border:1px solid #04bdf5;
     background-color: #ffffff;
-    margin-left:90px;
 }
 
 .height{
-    width:25%;
-    margin-left:15px;
+    flex-basis:260px;
     background-color: #ffffff;
-    border-radius:1%;
+    border-radius:3%;
+    flex-wrap: wrap;
+    margin:20px 10px;
+    padding:1px;
 }
 
 .flexible{
     text-align: center;
-    padding:50px;
+    padding:40px;
     color:#ffffff;
 }
 
 .footer{
     display:flex;
     justify-content: center;
+    max-width:99%;
+    margin:20px auto;
+    flex-wrap: wrap;
 }
 
 .active{
@@ -169,30 +193,43 @@ h1,button,h3{
     color:#ffffff;
 }
 
-.review{
-    display:flex;
-    margin-top:40px;
-    justify-content: space-around;
-    margin-left:80px;
+.blue{
+    background-color: #04bdf5;
+    color:#ffffff;
 }
+
 
 .michael{
     margin-left:70px;
     margin-top:-60px;
+    font-size:1rem;
 }
 
 .page4{
-    margin-top:30px;
+    max-width:95%;
+    margin:30px auto;
 }
 
 .loves{
     text-align:center;
+    max-width:30%;
+    margin:0 auto;
+}
+
+
+.review{
+    display:flex;
+    flex-wrap:wrap;
+    max-width:90%;
+    margin:30px auto;
 }
 
 .box{
     box-shadow: 2px 2px 2px #ffffff,-2px -2px 2px #ffffff;
     background-color: #ffffff;
-    padding:15px;
+    padding:10px;
+    flex-basis:400px;
+    margin:20px auto;
 }
 
 .margin{
@@ -204,20 +241,23 @@ h1,button,h3{
     margin-top:10px;
 }
 
-.img{
-    width:100%;
-}
-.now{
+ .footer-image{
     display:flex;
-    justify-content: space-around;
-    margin-top:-250px;
+    justify-content: space-evenly;
+    background-color: #4d98f2;
+    margin:20px auto;
+ }
+ .now{
+    max-width:40%;
+ }
+
+.now-para{
+    max-width:30%;
+    color:#ffffff;
 }
 
-.now h1{
-    color:#ffffff;
-} 
-
-.now p{
+.now-head{
+    max-width:40%;
     color:#ffffff;
 }
 
@@ -226,21 +266,29 @@ h1,button,h3{
 }
 
 .page5{
-    margin-top:50px;
+    max-width:90%;
+    margin:0 auto;
 }
 
 .register{
     height:35px;
     width:140px;
-    margin-top:30px;
+    max-width:100%;
+    margin:20px auto;
     background-color: #086aeb;
     border:1px solid #ffffff;
 }
 
 .end{
     display:flex;
-    margin-top:200px;
     justify-content: space-around;
+    max-width:100%;
+    margin:30px auto;
+    flex-wrap:wrap;
+}
+
+.last-logo{
+    max-width:23%;
 }
 
 .last li{
@@ -252,11 +300,156 @@ h1,button,h3{
     margin-right:10px;
     margin-top:15px;
 }
+
 .media{
     margin-left:20px;
 }
 
+.end-para{
+    max-width:40%;
+}
+
+.end div:nth-child(1) img{
+    margin-left:50px;
+}
 
 .end div:nth-child(1) p{
     margin-top:15px;
+    margin-left:50px;
+}
+
+
+@media screen and (max-width:1087px){
+    .nav{
+        display:none;
+    }
+
+    .top{
+        max-width:60%;
+    }
+
+    .menu-icon{
+        display:block;
+        margin:auto;
+        margin-right:20px;
+    }
+
+    .menu-icon i{
+        font-size:30px;
+    }
+
+    .box{
+        flex-basis:280px;
+    }
+    .card{
+        display:flex;
+        justify-content: space-between;
+    }
+    .footer-image{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .review{
+        max-width:100%;
+        margin:0 auto;
+    }
+
+    .box{
+        margin:20px auto;
+        flex-basis:380px;
+    }
+
+    .end{
+        margin-left:20px;
+    }
+    
+}
+
+@media screen and (max-width:859px){
+    .box{
+        flex-basis:350px;
+        margin:20px auto;
+    }
+}
+
+@media screen and (max-width:787px){
+    .card{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .top{
+        order:1;
+        max-width:95%;
+        margin:10px auto;
+        font-size:1.5rem;
+    }
+
+    .hosting{
+        flex-basis:90%;
+        margin:20px auto;
+    }
+    .thor{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .thor-heading{
+        max-width:90%;
+        margin:0 auto;
+    }
+
+    .now{
+        max-width:90%;
+        margin:20px auto;
+    }
+    .thor-para{
+        max-width:90%;
+        margin:0 auto;
+    }
+
+    .loves{
+        max-width:100%;
+    }
+
+    .box{
+        flex-basis:40%;
+        margin:20px auto;
+    }
+
+    .end{
+        max-width:100%;
+        margin-top:20px;
+    }
+
+    .last-logo img{
+        margin-right:20px;
+    }
+
+    .last-logo{
+        max-width:90%;
+        margin:0 auto;
+    }
+    .last-logo{
+        display:flex;
+        flex-direction: column;
+        max-width:100%;
+        margin:20px auto;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:524px){
+    .box{
+        flex-basis:90%;
+        margin:20px auto;
+    }
+
+    .last-logo img{
+        text-align:center;
+        margin-right:60px;
+    }
+    
 }
